@@ -12,7 +12,7 @@ The app features tailored user interfaces and workflows depending on whether the
 * **Chef Dashboard:** Manage restaurant profiles, perform full CRUD operations on menu dishes (add, edit, delete), and handle incoming customer orders (accept/reject).
 * **Customer Interface:** Browse local kitchens, view menus, filter by categories, manage a dynamic shopping cart, place orders, and monitor statuses.
 
-### 🛠 Implemented Concepts & Architecture
+### Implemented Concepts & Architecture
 * **Data Persistence:** Handled locally using an abstract `DatabaseHelper` class leveraging **SQLite** for robust relational serialization (`toMap()` and `fromMap()`).
 * **State Management:** Handled dynamically via Flutter’s native state lifecycle (`setState`) to process real-time cart computations and menu modifications natively.
 * **Simulated Real-Time Tracking:** Implemented an asynchronous periodic status updates timeline to simulate real-world order fulfillment lifecycles for the customer.
